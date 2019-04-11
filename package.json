@@ -1,0 +1,37 @@
+{
+  "name": "genson",
+  "version": "0.0.1",
+  "description": "A cli npm tool for generating reality-related data for testing",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && mocha"
+  },
+  "bin": {
+    "genson": "dist/index-cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeZyeman/genson.git"
+  },
+  "author": "Mike Zyeman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikeZyeman/genson/issues"
+  },
+  "homepage": "https://github.com/MikeZyeman/genson#readme",
+  "devDependencies": {
+    "@types/fs-extra": "^5.0.5",
+    "@types/inquirer": "^6.0.0",
+    "@types/node": "^11.13.2",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.2"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "fs-extra": "^7.0.1",
+    "inquirer": "^6.2.2",
+    "lodash": "^4.17.11"
+  }
+}
